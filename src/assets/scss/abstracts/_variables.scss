@@ -1,0 +1,68 @@
+$color-primary: #0074d9;
+$color-secondary: #7fdbff;
+$color-tertiary: #39cccc;
+$color-background: #F2DDB6;
+
+.rubik-doodle-shadow-regular {
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.rubik-mono-one-regular {
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+.share-tech-mono-regular {
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+///// Color Themes ////
+
+// Green Tint
+/* Color Theme Swatches in Hex */
+// .Colorful-hand-drawn-framed-poster-of-the-downtown-LIVERPOOL,-UNITED-KINGDOM-with-highlighted-vintage-city-skyline-and-lettering-1-hex { color: #077336; }
+// .Colorful-hand-drawn-framed-poster-of-the-downtown-LIVERPOOL,-UNITED-KINGDOM-with-highlighted-vintage-city-skyline-and-lettering-2-hex { color: #247346; }
+// .Colorful-hand-drawn-framed-poster-of-the-downtown-LIVERPOOL,-UNITED-KINGDOM-with-highlighted-vintage-city-skyline-and-lettering-3-hex { color: #83A681; }
+// .Colorful-hand-drawn-framed-poster-of-the-downtown-LIVERPOOL,-UNITED-KINGDOM-with-highlighted-vintage-city-skyline-and-lettering-4-hex { color: #F2DDB6; }
+// .Colorful-hand-drawn-framed-poster-of-the-downtown-LIVERPOOL,-UNITED-KINGDOM-with-highlighted-vintage-city-skyline-and-lettering-5-hex { color: #D9C3A9; }
+
+// /* Color Theme Swatches in RGBA */
+// .Colorful-hand-drawn-framed-poster-of-the-downtown-LIVERPOOL,-UNITED-KINGDOM-with-highlighted-vintage-city-skyline-and-lettering-1-rgba { color: rgba(6, 114, 53, 1); }
+// .Colorful-hand-drawn-framed-poster-of-the-downtown-LIVERPOOL,-UNITED-KINGDOM-with-highlighted-vintage-city-skyline-and-lettering-2-rgba { color: rgba(35, 114, 69, 1); }
+// .Colorful-hand-drawn-framed-poster-of-the-downtown-LIVERPOOL,-UNITED-KINGDOM-with-highlighted-vintage-city-skyline-and-lettering-3-rgba { color: rgba(130, 165, 129, 1); }
+// .Colorful-hand-drawn-framed-poster-of-the-downtown-LIVERPOOL,-UNITED-KINGDOM-with-highlighted-vintage-city-skyline-and-lettering-4-rgba { color: rgba(242, 221, 181, 1); }
+// .Colorful-hand-drawn-framed-poster-of-the-downtown-LIVERPOOL,-UNITED-KINGDOM-with-highlighted-vintage-city-skyline-and-lettering-5-rgba { color: rgba(216, 195, 169, 1); }
+
+// /* Color Theme Swatches in HSLA */
+// .Colorful-hand-drawn-framed-poster-of-the-downtown-LIVERPOOL,-UNITED-KINGDOM-with-highlighted-vintage-city-skyline-and-lettering-1-hsla { color: hsla(146, 88, 23, 1); }
+// .Colorful-hand-drawn-framed-poster-of-the-downtown-LIVERPOOL,-UNITED-KINGDOM-with-highlighted-vintage-city-skyline-and-lettering-2-hsla { color: hsla(146, 52, 29, 1); }
+// .Colorful-hand-drawn-framed-poster-of-the-downtown-LIVERPOOL,-UNITED-KINGDOM-with-highlighted-vintage-city-skyline-and-lettering-3-hsla { color: hsla(118, 16, 57, 1); }
+// .Colorful-hand-drawn-framed-poster-of-the-downtown-LIVERPOOL,-UNITED-KINGDOM-with-highlighted-vintage-city-skyline-and-lettering-4-hsla { color: hsla(39, 70, 83, 1); }
+// .Colorful-hand-drawn-framed-poster-of-the-downtown-LIVERPOOL,-UNITED-KINGDOM-with-highlighted-vintage-city-skyline-and-lettering-5-hsla { color: hsla(33, 38, 75, 1); }
+
+// // pinkish
+// /* Color Theme Swatches in Hex */
+// .Bundi,-Rajasthan,-India.-Travel-postcard-or-poster-with-hand-drawing-1-hex { color: #F2C9CC; }
+// .Bundi,-Rajasthan,-India.-Travel-postcard-or-poster-with-hand-drawing-2-hex { color: #D9D7BA; }
+// .Bundi,-Rajasthan,-India.-Travel-postcard-or-poster-with-hand-drawing-3-hex { color: #F2E6A7; }
+// .Bundi,-Rajasthan,-India.-Travel-postcard-or-poster-with-hand-drawing-4-hex { color: #F2ECE4; }
+// .Bundi,-Rajasthan,-India.-Travel-postcard-or-poster-with-hand-drawing-5-hex { color: #A66D60; }
+
+// /* Color Theme Swatches in RGBA */
+// .Bundi,-Rajasthan,-India.-Travel-postcard-or-poster-with-hand-drawing-1-rgba { color: rgba(242, 201, 204, 1); }
+// .Bundi,-Rajasthan,-India.-Travel-postcard-or-poster-with-hand-drawing-2-rgba { color: rgba(216, 214, 186, 1); }
+// .Bundi,-Rajasthan,-India.-Travel-postcard-or-poster-with-hand-drawing-3-rgba { color: rgba(242, 229, 167, 1); }
+// .Bundi,-Rajasthan,-India.-Travel-postcard-or-poster-with-hand-drawing-4-rgba { color: rgba(242, 235, 227, 1); }
+// .Bundi,-Rajasthan,-India.-Travel-postcard-or-poster-with-hand-drawing-5-rgba { color: rgba(165, 108, 96, 1); }
+
+// /* Color Theme Swatches in HSLA */
+// .Bundi,-Rajasthan,-India.-Travel-postcard-or-poster-with-hand-drawing-1-hsla { color: hsla(354, 61, 86, 1); }
+// .Bundi,-Rajasthan,-India.-Travel-postcard-or-poster-with-hand-drawing-2-hsla { color: hsla(56, 28, 79, 1); }
+// .Bundi,-Rajasthan,-India.-Travel-postcard-or-poster-with-hand-drawing-3-hsla { color: hsla(50, 74, 80, 1); }
+// .Bundi,-Rajasthan,-India.-Travel-postcard-or-poster-with-hand-drawing-4-hsla { color: hsla(33, 36, 92, 1); }
+// .Bundi,-Rajasthan,-India.-Travel-postcard-or-poster-with-hand-drawing-5-hsla { color: hsla(11, 28, 51, 1); }
+
