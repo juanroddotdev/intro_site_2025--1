@@ -1,3 +1,5 @@
 @use "./base";
 @forward "./abstracts";
+@use "./themes/colorPalette";
+@use "./themes/themes";
 @use "./layout";
