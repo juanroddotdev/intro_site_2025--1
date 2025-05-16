@@ -1,3 +1,4 @@
+@use '@/assets/scss/themes/themes' as themes;
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Rubik+Mono+One&family=Share+Tech+Mono&display=swap');
 body {
   background: linear-gradient(0deg, rgba(242,221,182,0.71), rgba(242,221,182,0.7)),
@@ -7,29 +8,46 @@ body {
   // background-color: #F2DDB6;
 }
 #app {
-  max-width: 1200px;
+  /* max-width: 1200px; */
   height: auto;
   margin: 0 auto;
   font-weight: normal;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
-  margin-top: 56px;
-    // display: grid;
-    // grid-template-columns: repeat(8, 1fr);
-    // grid-template-rows: repeat(12, 1fr);
-    // grid-column-gap: 0px;
-    // grid-row-gap: 0px;
-    border: 1px solid red;
+  /* margin-top: 56px; */
 }
 
+/* Make sure @use statements come first */
+
+/* Then your other styles */
+div.theme {
+  min-height: 100vh;
+  padding: 2rem;
+  transition: all 0.3s ease;
+
+  &.sunset {
+    @include themes.apply-theme(themes.$sunset-theme);
+  }
+
+  &.forest {
+    @include themes.apply-theme(themes.$forest-theme);
+  }
+
+  &.ocean {
+    @include themes.apply-theme(themes.$ocean-theme);
+  }
+
+  &.galaxy {
+    @include themes.apply-theme(themes.$galaxy-theme);
+  }
+}
 header,
 main {
   padding: 2rem;
   position: relative;
   padding: 0 60px;
   // flex: 1;
-  border: 1px solid blue;
 }
 
 main {

@@ -9,7 +9,8 @@ nav {
 }
 h1.logo-component {
   font-size: 48px;
-  color: #247346;
+  /* color: var(--primary-color); */
+  color: var(--accent-color);
 }
 div.color-picker {
   display: flex;
